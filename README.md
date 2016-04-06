@@ -12,6 +12,7 @@ luarocks install torch
 luarocks install nn
 luarocks install optim
 luarocks install lua-cjson
+luarocks install async
 git clone https://github.com/deepmind/torch-hdf5
 cd torch-hdf5
 luarocks make hdf5-0-0.rockspec
