@@ -1,7 +1,6 @@
-
-require 'torch'
-require 'nn'
-require 'LanguageModel'
+require('torch')
+require('nn')
+require('LanguageModel')
 
 
 local myServer = {
@@ -49,9 +48,7 @@ function getNextText(startText)
       msg = 'Running in CPU mode'
    end
    if opt.verbose == 1 then print(msg) end
-
    model:evaluate()
-
    local sample = model:sample(opt)
    print(sample)
 
