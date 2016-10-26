@@ -1,3 +1,10 @@
+stuff below is deprecated new design will have python epc as a company backend
+
+http://sixty-north.com/blog/series/how-to-write-company-mode-backends
+
+https://github.com/tkf/python-epc
+
+
 ** INSTALL STUFF
 sudo apt-get -y install python2.7-dev
 sudo apt-get install libhdf5-dev
@@ -27,3 +34,6 @@ luarocks install cunn
 ** REMOVE STUFF
 If you ever need to uninstall torch, simply run the command:
 rm -rf ~/torch
+
+
+
